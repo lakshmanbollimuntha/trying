@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* Updated CSS code goes here */
+        /* ... */
+    </style>
+    <script>
+        function scrollToSection(event, sectionId) {
+            event.preventDefault();
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1 class="name">Lakshman Bollimuntha</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="scrollToSection(event, 'home')">Home</a></li>
+                <li><a href="#" onclick="scrollToSection(event, 'about')">About</a></li>
+                <li><a href="#" onclick="scrollToSection(event, 'skills')">Skills</a></li>
+                <li><a href="#" onclick="scrollToSection(event, 'contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I'm lakshman , frontend developer passionate about creating beautiful and engaging web experiences.</p>
+        </div>
+        <img src="20220415_195947.jpg" alt="Your Image" width="100%" class="hero-image">
+    </section>
+
+    <section id="about" class="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>👋 Hey there! I'm Lakshman, an aspiring Frontend Developer with a growth mindset and a passion for creating exceptional user experiences. I specialize in HTML, CSS, JavaScript, and frameworks. With my ability to easily fit into a group, I thrive in collaborative environments. I also have a sense of humor that adds a touch of creativity to my work. In addition, I'm keen on exploring AI tools to enhance my development process and streamline efficiency. Continuously improving my prompt engineering skills, I stay updated with the latest industry trends.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="content">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>Frontend Frameworks (e.g., React, Angular)</li>
+                <li>Version Control (e.g., Git)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <p>You can reach me at:</p>
+            <ul>
+                <li>Email: lakshmanbollimuntha.com</li>
+                <li>Phone: 6309732529</li>
+                <li>website: www.linkedin.com/in/
+                    lakshman-bollimuntha
+                    </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
